@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2009FF3D15D0EA3400F2AC9C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2009FF3715D0E89800F2AC9C /* MBProgressHUD.m */; };
+		2009FF4915D0F9A600F2AC9C /* BookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2009FF4715D0F9A600F2AC9C /* BookDetailViewController.m */; };
+		2009FF4A15D0F9A600F2AC9C /* BookDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2009FF4815D0F9A600F2AC9C /* BookDetailViewController.xib */; };
+		2009FF5615D10C0500F2AC9C /* CameraDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2009FF5415D10C0500F2AC9C /* CameraDetailViewController.m */; };
+		2009FF5715D10C0500F2AC9C /* CameraDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2009FF5515D10C0500F2AC9C /* CameraDetailViewController.xib */; };
+		2009FF5B15D1115B00F2AC9C /* MusicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2009FF5915D1115B00F2AC9C /* MusicDetailViewController.m */; };
+		2009FF5C15D1115B00F2AC9C /* MusicDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2009FF5A15D1115B00F2AC9C /* MusicDetailViewController.xib */; };
+		2009FF6115D117E300F2AC9C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2009FF6015D117E300F2AC9C /* CFNetwork.framework */; };
+		2009FF6715D1193300F2AC9C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2009FF6615D1193200F2AC9C /* SystemConfiguration.framework */; };
+		2043FF1915D3907D00DFCDC5 /* CameraDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2043FF1815D3907D00DFCDC5 /* CameraDatabase.m */; };
+		2043FF2515D39E6D00DFCDC5 /* musicDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2043FF2415D39E6D00DFCDC5 /* musicDatabase.m */; };
+		2043FF3115D3EB2700DFCDC5 /* productDetail.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 2043FF3015D3EB2700DFCDC5 /* productDetail.sqlite */; };
+		2088A16415CFC7E300F0941F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2088A16315CFC7E300F0941F /* UIKit.framework */; };
+		2088A16615CFC7E300F0941F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2088A16515CFC7E300F0941F /* Foundation.framework */; };
+		2088A16815CFC7E300F0941F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2088A16715CFC7E300F0941F /* CoreGraphics.framework */; };
+		2088A16E15CFC7E300F0941F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2088A16C15CFC7E300F0941F /* InfoPlist.strings */; };
+		2088A17015CFC7E300F0941F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2088A16F15CFC7E300F0941F /* main.m */; };
+		2088A17415CFC7E300F0941F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2088A17315CFC7E300F0941F /* AppDelegate.m */; };
+		2088A17715CFC7E300F0941F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2088A17615CFC7E300F0941F /* ViewController.m */; };
+		2088A17A15CFC7E300F0941F /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2088A17815CFC7E300F0941F /* ViewController_iPhone.xib */; };
+		2088A17D15CFC7E300F0941F /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2088A17B15CFC7E300F0941F /* ViewController_iPad.xib */; };
+		2088A19715CFDF1500F0941F /* ItemCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2088A19515CFDF1500F0941F /* ItemCustomCell.m */; };
+		2088A19815CFDF1500F0941F /* ItemCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2088A19615CFDF1500F0941F /* ItemCustomCell.xib */; };
+		2088A1A615CFF96600F0941F /* CameraCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2088A1A415CFF96600F0941F /* CameraCustomCell.m */; };
+		2088A1A715CFF96600F0941F /* CameraCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2088A1A515CFF96600F0941F /* CameraCustomCell.xib */; };
+		2088A1AB15D0033A00F0941F /* MusicCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2088A1A915D0033A00F0941F /* MusicCustomCell.m */; };
+		2088A1AC15D0033A00F0941F /* MusicCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2088A1AA15D0033A00F0941F /* MusicCustomCell.xib */; };
+		20B6294215D11F82008379EA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B6294115D11F82008379EA /* libsqlite3.dylib */; };
+		20B6294615D135E3008379EA /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B6294515D135E3008379EA /* Reachability.m */; };
+		20B6294815D136C6008379EA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B6294715D136C6008379EA /* Default.png */; };
+		20C7E95515D2445E006AF693 /* SQLiteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C7E95315D2445E006AF693 /* SQLiteOperation.m */; };
+		20C7E96415D24E13006AF693 /* BookDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C7E96315D24E13006AF693 /* BookDatabase.m */; };
+		4771C600165B536C00028E3C /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4771C5FF165B536C00028E3C /* libsqlite3.0.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2009FF3615D0E89800F2AC9C /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		2009FF3715D0E89800F2AC9C /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		2009FF4615D0F9A600F2AC9C /* BookDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookDetailViewController.h; sourceTree = "<group>"; };
+		2009FF4715D0F9A600F2AC9C /* BookDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookDetailViewController.m; sourceTree = "<group>"; };
+		2009FF4815D0F9A600F2AC9C /* BookDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookDetailViewController.xib; sourceTree = "<group>"; };
+		2009FF5315D10C0500F2AC9C /* CameraDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraDetailViewController.h; sourceTree = "<group>"; };
+		2009FF5415D10C0500F2AC9C /* CameraDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraDetailViewController.m; sourceTree = "<group>"; };
+		2009FF5515D10C0500F2AC9C /* CameraDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraDetailViewController.xib; sourceTree = "<group>"; };
+		2009FF5815D1115B00F2AC9C /* MusicDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDetailViewController.h; sourceTree = "<group>"; };
+		2009FF5915D1115B00F2AC9C /* MusicDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDetailViewController.m; sourceTree = "<group>"; };
+		2009FF5A15D1115B00F2AC9C /* MusicDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicDetailViewController.xib; sourceTree = "<group>"; };
+		2009FF6015D117E300F2AC9C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2009FF6615D1193200F2AC9C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2043FF1715D3907D00DFCDC5 /* CameraDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraDatabase.h; sourceTree = "<group>"; };
+		2043FF1815D3907D00DFCDC5 /* CameraDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraDatabase.m; sourceTree = "<group>"; };
+		2043FF2315D39E6D00DFCDC5 /* musicDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = musicDatabase.h; sourceTree = "<group>"; };
+		2043FF2415D39E6D00DFCDC5 /* musicDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = musicDatabase.m; sourceTree = "<group>"; };
+		2043FF3015D3EB2700DFCDC5 /* productDetail.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = productDetail.sqlite; sourceTree = "<group>"; };
+		2088A15F15CFC7E200F0941F /* BookApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2088A16315CFC7E300F0941F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2088A16515CFC7E300F0941F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2088A16715CFC7E300F0941F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2088A16B15CFC7E300F0941F /* BookApplication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookApplication-Info.plist"; sourceTree = "<group>"; };
+		2088A16D15CFC7E300F0941F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2088A16F15CFC7E300F0941F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2088A17115CFC7E300F0941F /* BookApplication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BookApplication-Prefix.pch"; sourceTree = "<group>"; };
+		2088A17215CFC7E300F0941F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2088A17315CFC7E300F0941F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2088A17515CFC7E300F0941F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2088A17615CFC7E300F0941F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2088A17915CFC7E300F0941F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		2088A17C15CFC7E300F0941F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		2088A19415CFDF1500F0941F /* ItemCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCustomCell.h; sourceTree = "<group>"; };
+		2088A19515CFDF1500F0941F /* ItemCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCustomCell.m; sourceTree = "<group>"; };
+		2088A19615CFDF1500F0941F /* ItemCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCustomCell.xib; sourceTree = "<group>"; };
+		2088A1A315CFF96600F0941F /* CameraCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraCustomCell.h; sourceTree = "<group>"; };
+		2088A1A415CFF96600F0941F /* CameraCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraCustomCell.m; sourceTree = "<group>"; };
+		2088A1A515CFF96600F0941F /* CameraCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraCustomCell.xib; sourceTree = "<group>"; };
+		2088A1A815D0033A00F0941F /* MusicCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicCustomCell.h; sourceTree = "<group>"; };
+		2088A1A915D0033A00F0941F /* MusicCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicCustomCell.m; sourceTree = "<group>"; };
+		2088A1AA15D0033A00F0941F /* MusicCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicCustomCell.xib; sourceTree = "<group>"; };
+		20B6294115D11F82008379EA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		20B6294415D135E3008379EA /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		20B6294515D135E3008379EA /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		20B6294715D136C6008379EA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		20C7E95215D2445E006AF693 /* SQLiteOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteOperation.h; sourceTree = "<group>"; };
+		20C7E95315D2445E006AF693 /* SQLiteOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteOperation.m; sourceTree = "<group>"; };
+		20C7E96215D24E13006AF693 /* BookDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookDatabase.h; sourceTree = "<group>"; };
+		20C7E96315D24E13006AF693 /* BookDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookDatabase.m; sourceTree = "<group>"; };
+		4771C5FF165B536C00028E3C /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2088A15C15CFC7E200F0941F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4771C600165B536C00028E3C /* libsqlite3.0.dylib in Frameworks */,
+				20B6294215D11F82008379EA /* libsqlite3.dylib in Frameworks */,
+				2009FF6715D1193300F2AC9C /* SystemConfiguration.framework in Frameworks */,
+				2009FF6115D117E300F2AC9C /* CFNetwork.framework in Frameworks */,
+				2088A16415CFC7E300F0941F /* UIKit.framework in Frameworks */,
+				2088A16615CFC7E300F0941F /* Foundation.framework in Frameworks */,
+				2088A16815CFC7E300F0941F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2009FF4B15D0F9B400F2AC9C /* Book Class */ = {
+			isa = PBXGroup;
+			children = (
+				2088A19415CFDF1500F0941F /* ItemCustomCell.h */,
+				2088A19515CFDF1500F0941F /* ItemCustomCell.m */,
+				2088A19615CFDF1500F0941F /* ItemCustomCell.xib */,
+				2009FF4615D0F9A600F2AC9C /* BookDetailViewController.h */,
+				2009FF4715D0F9A600F2AC9C /* BookDetailViewController.m */,
+				2009FF4815D0F9A600F2AC9C /* BookDetailViewController.xib */,
+			);
+			name = "Book Class";
+			sourceTree = "<group>";
+		};
+		2009FF5015D10B4600F2AC9C /* Camera Class */ = {
+			isa = PBXGroup;
+			children = (
+				2088A1A315CFF96600F0941F /* CameraCustomCell.h */,
+				2088A1A415CFF96600F0941F /* CameraCustomCell.m */,
+				2088A1A515CFF96600F0941F /* CameraCustomCell.xib */,
+				2009FF5315D10C0500F2AC9C /* CameraDetailViewController.h */,
+				2009FF5415D10C0500F2AC9C /* CameraDetailViewController.m */,
+				2009FF5515D10C0500F2AC9C /* CameraDetailViewController.xib */,
+			);
+			name = "Camera Class";
+			sourceTree = "<group>";
+		};
+		2009FF5115D10B6000F2AC9C /* Music Class */ = {
+			isa = PBXGroup;
+			children = (
+				2088A1A815D0033A00F0941F /* MusicCustomCell.h */,
+				2088A1A915D0033A00F0941F /* MusicCustomCell.m */,
+				2088A1AA15D0033A00F0941F /* MusicCustomCell.xib */,
+				2009FF5815D1115B00F2AC9C /* MusicDetailViewController.h */,
+				2009FF5915D1115B00F2AC9C /* MusicDetailViewController.m */,
+				2009FF5A15D1115B00F2AC9C /* MusicDetailViewController.xib */,
+			);
+			name = "Music Class";
+			sourceTree = "<group>";
+		};
+		2009FF5215D10BB400F2AC9C /* Extra Features */ = {
+			isa = PBXGroup;
+			children = (
+				20B6294415D135E3008379EA /* Reachability.h */,
+				20B6294515D135E3008379EA /* Reachability.m */,
+				2009FF3615D0E89800F2AC9C /* MBProgressHUD.h */,
+				2009FF3715D0E89800F2AC9C /* MBProgressHUD.m */,
+			);
+			name = "Extra Features";
+			sourceTree = "<group>";
+		};
+		2088A15415CFC7E200F0941F = {
+			isa = PBXGroup;
+			children = (
+				4771C5FF165B536C00028E3C /* libsqlite3.0.dylib */,
+				20B6294715D136C6008379EA /* Default.png */,
+				2088A16915CFC7E300F0941F /* BookApplication */,
+				2088A16215CFC7E300F0941F /* Frameworks */,
+				2088A16015CFC7E300F0941F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2088A16015CFC7E300F0941F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2088A15F15CFC7E200F0941F /* BookApplication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2088A16215CFC7E300F0941F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20B6294115D11F82008379EA /* libsqlite3.dylib */,
+				2009FF6615D1193200F2AC9C /* SystemConfiguration.framework */,
+				2009FF6015D117E300F2AC9C /* CFNetwork.framework */,
+				2088A16315CFC7E300F0941F /* UIKit.framework */,
+				2088A16515CFC7E300F0941F /* Foundation.framework */,
+				2088A16715CFC7E300F0941F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2088A16915CFC7E300F0941F /* BookApplication */ = {
+			isa = PBXGroup;
+			children = (
+				20C7E95015D24444006AF693 /* Database Controller */,
+				2009FF5215D10BB400F2AC9C /* Extra Features */,
+				2009FF5115D10B6000F2AC9C /* Music Class */,
+				2009FF5015D10B4600F2AC9C /* Camera Class */,
+				2009FF4B15D0F9B400F2AC9C /* Book Class */,
+				2088A1A215CFF8DC00F0941F /* Main View Controller  */,
+				2088A16A15CFC7E300F0941F /* Supporting Files */,
+			);
+			path = BookApplication;
+			sourceTree = "<group>";
+		};
+		2088A16A15CFC7E300F0941F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2088A16B15CFC7E300F0941F /* BookApplication-Info.plist */,
+				2088A16C15CFC7E300F0941F /* InfoPlist.strings */,
+				2088A16F15CFC7E300F0941F /* main.m */,
+				2088A17115CFC7E300F0941F /* BookApplication-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2088A1A215CFF8DC00F0941F /* Main View Controller  */ = {
+			isa = PBXGroup;
+			children = (
+				2088A17215CFC7E300F0941F /* AppDelegate.h */,
+				2088A17315CFC7E300F0941F /* AppDelegate.m */,
+				2088A17515CFC7E300F0941F /* ViewController.h */,
+				2088A17615CFC7E300F0941F /* ViewController.m */,
+				2088A17815CFC7E300F0941F /* ViewController_iPhone.xib */,
+				2088A17B15CFC7E300F0941F /* ViewController_iPad.xib */,
+			);
+			name = "Main View Controller ";
+			sourceTree = "<group>";
+		};
+		20C7E95015D24444006AF693 /* Database Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2043FF3015D3EB2700DFCDC5 /* productDetail.sqlite */,
+				20C7E96215D24E13006AF693 /* BookDatabase.h */,
+				20C7E96315D24E13006AF693 /* BookDatabase.m */,
+				20C7E95215D2445E006AF693 /* SQLiteOperation.h */,
+				20C7E95315D2445E006AF693 /* SQLiteOperation.m */,
+				2043FF1715D3907D00DFCDC5 /* CameraDatabase.h */,
+				2043FF1815D3907D00DFCDC5 /* CameraDatabase.m */,
+				2043FF2315D39E6D00DFCDC5 /* musicDatabase.h */,
+				2043FF2415D39E6D00DFCDC5 /* musicDatabase.m */,
+			);
+			name = "Database Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2088A15E15CFC7E200F0941F /* BookApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2088A18015CFC7E300F0941F /* Build configuration list for PBXNativeTarget "BookApplication" */;
+			buildPhases = (
+				2088A15B15CFC7E200F0941F /* Sources */,
+				2088A15C15CFC7E200F0941F /* Frameworks */,
+				2088A15D15CFC7E200F0941F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookApplication;
+			productName = BookApplication;
+			productReference = 2088A15F15CFC7E200F0941F /* BookApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2088A15615CFC7E200F0941F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2088A15915CFC7E200F0941F /* Build configuration list for PBXProject "BookApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2088A15415CFC7E200F0941F;
+			productRefGroup = 2088A16015CFC7E300F0941F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2088A15E15CFC7E200F0941F /* BookApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2088A15D15CFC7E200F0941F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2088A16E15CFC7E300F0941F /* InfoPlist.strings in Resources */,
+				2088A17A15CFC7E300F0941F /* ViewController_iPhone.xib in Resources */,
+				2088A17D15CFC7E300F0941F /* ViewController_iPad.xib in Resources */,
+				2088A19815CFDF1500F0941F /* ItemCustomCell.xib in Resources */,
+				2088A1A715CFF96600F0941F /* CameraCustomCell.xib in Resources */,
+				2088A1AC15D0033A00F0941F /* MusicCustomCell.xib in Resources */,
+				2009FF4A15D0F9A600F2AC9C /* BookDetailViewController.xib in Resources */,
+				2009FF5715D10C0500F2AC9C /* CameraDetailViewController.xib in Resources */,
+				2009FF5C15D1115B00F2AC9C /* MusicDetailViewController.xib in Resources */,
+				20B6294815D136C6008379EA /* Default.png in Resources */,
+				2043FF3115D3EB2700DFCDC5 /* productDetail.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2088A15B15CFC7E200F0941F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2009FF3D15D0EA3400F2AC9C /* MBProgressHUD.m in Sources */,
+				2088A17015CFC7E300F0941F /* main.m in Sources */,
+				2088A17415CFC7E300F0941F /* AppDelegate.m in Sources */,
+				2088A17715CFC7E300F0941F /* ViewController.m in Sources */,
+				2088A19715CFDF1500F0941F /* ItemCustomCell.m in Sources */,
+				2088A1A615CFF96600F0941F /* CameraCustomCell.m in Sources */,
+				2088A1AB15D0033A00F0941F /* MusicCustomCell.m in Sources */,
+				2009FF4915D0F9A600F2AC9C /* BookDetailViewController.m in Sources */,
+				2009FF5615D10C0500F2AC9C /* CameraDetailViewController.m in Sources */,
+				2009FF5B15D1115B00F2AC9C /* MusicDetailViewController.m in Sources */,
+				20B6294615D135E3008379EA /* Reachability.m in Sources */,
+				20C7E95515D2445E006AF693 /* SQLiteOperation.m in Sources */,
+				20C7E96415D24E13006AF693 /* BookDatabase.m in Sources */,
+				2043FF1915D3907D00DFCDC5 /* CameraDatabase.m in Sources */,
+				2043FF2515D39E6D00DFCDC5 /* musicDatabase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2088A16C15CFC7E300F0941F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2088A16D15CFC7E300F0941F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2088A17815CFC7E300F0941F /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2088A17915CFC7E300F0941F /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		2088A17B15CFC7E300F0941F /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2088A17C15CFC7E300F0941F /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2088A17E15CFC7E300F0941F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2088A17F15CFC7E300F0941F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2088A18115CFC7E300F0941F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookApplication/BookApplication-Prefix.pch";
+				INFOPLIST_FILE = "BookApplication/BookApplication-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2088A18215CFC7E300F0941F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookApplication/BookApplication-Prefix.pch";
+				INFOPLIST_FILE = "BookApplication/BookApplication-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2088A15915CFC7E200F0941F /* Build configuration list for PBXProject "BookApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2088A17E15CFC7E300F0941F /* Debug */,
+				2088A17F15CFC7E300F0941F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2088A18015CFC7E300F0941F /* Build configuration list for PBXNativeTarget "BookApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2088A18115CFC7E300F0941F /* Debug */,
+				2088A18215CFC7E300F0941F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2088A15615CFC7E200F0941F /* Project object */;
+}
